@@ -2,7 +2,7 @@ const zhNavbar = {
   hideOnScroll: true,
   title: "Prompt X3",
   logo: {
-    alt: "Prompt X3s",
+    alt: "Prompt X3",
     src: "img/promptx3.svg",
   },
   items: [

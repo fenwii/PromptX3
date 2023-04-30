@@ -13,7 +13,193 @@ export const Tags: { [type in TagType]: Tag } = {
     color: "#e9669e",
   },
 
-  write: {
+  classic: {
+    label: translate({ message: "经典" }),
+    description: translate({
+      message: "经典",
+      id: "showcase.tag.classic.description",
+    }),
+    color: "#e9669e",
+  },
+  bigdata: {
+    label: translate({ message: "大数据" }),
+    description: translate({
+      message: "大数据",
+      id: "showcase.tag.bigdata.description",
+    }),
+    color: "#75581e",
+  },
+  netvisualization: {
+    label: translate({ message: "网络可视化" }),
+    description: translate({
+      message: "网络可视化",
+      id: "showcase.tag.netvisualization.description",
+    }),
+    color: "#d6a84d",
+  },
+datacenter: {
+    label: translate({ message: "数据中心" }),
+    description: translate({
+      message: "数据中心",
+      id: "showcase.tag.datacenter.description",
+    }),
+    color: "#d6a84d",
+  },
+  
+  O2O: {
+    label: translate({ message: "O2O" }),
+    description: translate({
+      message: "O2O",
+      id: "showcase.tag.O2O.description",
+    }),
+    color: "#66e980",
+  },
+  takeaway: {
+    label: translate({ message: "外卖" }),
+    description: translate({
+      message: "外卖",
+      id: "showcase.tag.takeaway.description",
+    }),
+    color: "#75581e",
+  },
+  onlinecarhailing: {
+    label: translate({ message: "网约车" }),
+    description: translate({
+      message: "网约车",
+      id: "showcase.tag.onlinecarhailing.description",
+    }),
+    color: "#4e1e75",
+  },
+  lifeservices: {
+    label: translate({ message: "生活服务" }),
+    description: translate({
+      message: "生活服务",
+      id: "showcase.tag.lifeservices.description",
+    }),
+    color: "#228c60",
+  },
+  software: {
+    label: translate({ message: "软件" }),
+    description: translate({
+      message: "软件",
+      id: "showcase.tag.software.description",
+    }),
+    color: "rgb(21, 95, 223)",
+  },
+  paas: {
+    label: translate({ message: "Paas" }),
+    description: translate({
+      message: "Paas",
+      id: "showcase.tag.paas.description",
+    }),
+    color: "rgb(21, 95, 223)",
+  },
+  software: {
+    label: translate({ message: "软件" }),
+    description: translate({
+      message: "软件",
+      id: "showcase.tag.software.description",
+    }),
+    color: "rgb(21, 95, 223)",
+  },
+  iaas: {
+    label: translate({ message: "Iaas" }),
+    description: translate({
+      message: "Iaas",
+      id: "showcase.tag.iaas.description",
+    }),
+    color: "rgb(21, 95, 223)",
+  },
+  saas: {
+    label: translate({ message: "Saas" }),
+    description: translate({
+      message: "Saas",
+      id: "showcase.tag.saas.description",
+    }),
+    color: "rgb(21, 95, 223)",
+  },
+  information: {
+    label: translate({ message: "信息化" }),
+    description: translate({
+      message: "信息化",
+      id: "showcase.tag.information.description",
+    }),
+    color: "rgb(21, 95, 223)",
+  },
+  middleware: {
+    label: translate({ message: "中间件" }),
+    description: translate({
+      message: "中间件",
+      id: "showcase.tag.middleware.description",
+    }),
+    color: "rgb(21, 95, 223)",
+  },
+  os: {
+    label: translate({ message: "操作系统" }),
+    description: translate({
+      message: "操作系统",
+      id: "showcase.tag.os.description",
+    }),
+    color: "rgb(1, 7, 17)",
+  },
+  database: {
+    label: translate({ message: "数据库" }),
+    description: translate({
+      message: "数据库",
+      id: "showcase.tag.database.description",
+    }),
+    color: "rgb(21, 95, 223)",
+  },
+  infosecurity: {
+    label: translate({ message: "信息安全" }),
+    description: translate({
+      message: "信息安全",
+      id: "showcase.tag.infosecurity.description",
+    }),
+    color: "rgb(223, 61, 21)",
+  },
+  netsecurity: {
+    label: translate({ message: "网络安全" }),
+    description: translate({
+      message: "网络安全",
+      id: "showcase.tag.netsecurity.description",
+    }),
+    color: "rgb(223, 61, 21)",
+  },
+  security: {
+    label: translate({ message: "安防" }),
+    description: translate({
+      message: "安防",
+      id: "showcase.tag.security.description",
+    }),
+    color: "rgb(223, 61, 21)",
+  },
+  iot: {
+    label: translate({ message: "物联网" }),
+    description: translate({
+      message: "物联网",
+      id: "showcase.tag.iot.description",
+    }),
+    color: "rgb(91, 28, 12)",
+  },	
+  iov: {
+    label: translate({ message: "车联网" }),
+    description: translate({
+      message: "车联网",
+      id: "showcase.tag.iov.description",
+    }),
+    color: "rgb(166, 21, 223)",
+  }, 
+  smartcity: {
+    label: translate({ message: "智慧城市" }),
+    description: translate({
+      message: "智慧城市",
+      id: "showcase.tag.smartcity.description",
+    }),
+    color: "rgb(21, 223, 78)",
+  }, 
+   	
+write: {
     label: translate({ message: "写作辅助" }),
     description: translate({
       message: "对文章的语法和风格进行润色，以帮助你完成写作",
@@ -21,7 +207,7 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#75581e",
   },
-
+  	
   article: {
     label: translate({ message: "文章/报告" }),
     description: translate({
@@ -30,7 +216,31 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#dfd545",
   },
-
+  
+  cloudservices: {
+    label: translate({ message: "云服务" }),
+    description: translate({
+      message:"云服务",
+      id: "showcase.tag.cloudservices.description",
+    }),
+    color: "#568c00",
+  },
+  cloudstore: {
+    label: translate({ message: "云存储" }),
+    description: translate({
+      message:"云存储",
+      id: "showcase.tag.cloudstore.description",
+    }),
+    color: "#568c00",
+  },
+  cloudcomputing: {
+    label: translate({ message: "云计算" }),
+    description: translate({
+      message:"云计算",
+      id: "showcase.tag.cloudcomputing.description",
+    }),
+    color: "#476812",
+  },
   code: {
     label: translate({ message: "IT/编程" }),
     description: translate({
@@ -42,9 +252,9 @@ export const Tags: { [type in TagType]: Tag } = {
   },
 
   ai: {
-    label: translate({ message: "AI" }),
+    label: translate({ message: "AI人工智能" }),
     description: translate({
-      message: "AI",
+      message: "AI人工智能",
       id: "showcase.tag.ai.description",
     }),
     color: "#ff6100", // Facebook blue

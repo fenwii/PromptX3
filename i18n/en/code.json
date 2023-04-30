@@ -5,6 +5,12 @@
   "showcase.tag.favorite.description": {
     "message": "Favorite"
   },
+  "经典": {
+    "message": "Classic"
+  },
+  "showcase.tag.classic.description": {
+    "message": "Classic Role Prompts."
+  },
   "发散思维": {
     "message": "Mind"
   },
@@ -158,7 +164,7 @@
   "Prompt X3 - 简单易用的 ChatGPT 快捷指令表，让生产力倍增！": {
     "message": "Prompt X3 - A concise and user-friendly shortcut guide for ChatGPT, Power up your efficiency and productivity."
   },
-  "让生产力加倍的 ChatGPT,Midjourney,Stable Diffusion 快捷指令": {
+  "ChatGPT,Midjourney,Stable Diffusion 让提问，想象力和思辨成为第一生产力": {
     "message": "Maximize your Efficiency and Productivity"
   },
   "showcase.header.button": {

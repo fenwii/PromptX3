@@ -5,7 +5,7 @@
     <a href="./README-en.md">English</a> | 中文
 </p>
 <p align="center">
-    <em>让生产力加倍的 ChatGPT,Midjourney,Stable Diffusion 快捷指令</em>
+    <em>让生产力加倍的 ChatGPT,Midjourney,Stable Diffusion 让提问，想象力和思辨成为第一生产力</em>
 </p>
 
 ## Why use Prompt X3?

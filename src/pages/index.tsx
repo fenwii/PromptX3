@@ -42,7 +42,7 @@ const TITLE = translate({
     "Prompt X3 - 简单易用的 ChatGPT 快捷指令表，让生产力倍增！标签筛选、关键词搜索和一键复制 Prompts",
 });
 const DESCRIPTION = translate({
-  message: "让生产力加倍的 ChatGPT,Midjourney,Stable Diffusion 快捷指令",
+  message: "ChatGPT,Midjourney,Stable Diffusion 让提问，想象力和思辨成为第一生产力",
 });
 const SUBMIT_URL =
   "https://c9ki7hypo6.feishu.cn/docx/M6z7doyWzoHsboxZO7ycqSHwnig";
@@ -139,7 +139,7 @@ function useFilteredUsers() {
 function ShowcaseHeader() {
   return (
     <section className="margin-top--lg margin-bottom--lg text--center">
-      <Heading as="h1">Prompt X3</Heading>
+      <Heading as="h1">Prompt X<sup>3</sup></Heading>
       <p>{DESCRIPTION}</p>
       <Link className="button button--primary" to={SUBMIT_URL}>
         <Translate id="showcase.header.button">关注家酿人工智能俱乐部</Translate>
