@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Prompt X3",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Prompt X3s",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.ChatGPT 使用说明": {
+    "message": "The original intention behind creating Prompt X3",
+    "description": "Navbar item with label The original intention behind creating Prompt X3"
+  },
+  "item.label.开源工具导航": {
+    "message": "open-source tool directory",
+    "description": "Navbar item with label open-source tool directory"
+  },
+  "item.label.Find on Product Hunt": {
+    "message": "Find on Product Hunt",
+    "description": "Navbar item with label Find on Product Hunt"
+  }
+}
