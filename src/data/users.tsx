@@ -12,7 +12,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#e9669e",
   },
-
   classic: {
     label: translate({ message: "经典" }),
     description: translate({
@@ -44,8 +43,7 @@ export const Tags: { [type in TagType]: Tag } = {
       id: "showcase.tag.shareeconomy.description",
     }),
     color: "#d24317", // Facebook blue
-  },
-  
+  }, 
   treedtechnology: {
     label: translate({ message: "3D技术" }),
     description: translate({
@@ -70,7 +68,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#cf92e0",
   },
-
   interesting: {
     label: translate({ message: "趣味知识" }),
     description: translate({
@@ -79,7 +76,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#127f82",
   },
-
   life: {
     label: translate({ message: "自助百科" }),
     description: translate({
@@ -88,7 +84,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#a44fb7",
   },
-
   social: {
     label: translate({ message: "心理/社交" }),
     description: translate({
@@ -97,7 +92,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#ee3308",
   },
-
   philosophy: {
     label: translate({ message: "哲学/宗教" }),
     description: translate({
@@ -106,7 +100,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#ffcaa9",
   },
-
   mind: {
     label: translate({ message: "发散思维" }),
     description: translate({
@@ -115,88 +108,22 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#86699e",
   },
-
   pedagogy: {
     label: translate({ message: "教育" }),
     description: translate({
-      message: "与教育相关的内容",
+      message: "教育相关的内容,K12/早教/小学/中学/职教/高校/培训/留学",
       id: "showcase.tag.pedagogy.description",
     }),
     color: "#fe0999",
   },
-  k12: {
-    label: translate({ message: "教育/K12" }),
-    description: translate({
-      message: "与K12教育相关的内容",
-      id: "showcase.tag.k12.description",
-    }),
-    color: "#fe0999",
-  }, 
-  earlyedu: {
-    label: translate({ message: "教育/早教" }),
-    description: translate({
-      message: "与早教相关的内容",
-      id: "showcase.tag.earlyedu.description",
-    }),
-    color: "#fe0999",
-  }, 
-  primaryschool: {
-    label: translate({ message: "教育/小学" }),
-    description: translate({
-      message: "与小学教育相关的内容",
-      id: "showcase.tag.primaryschool.description",
-    }),
-    color: "#fe0999",
-  }, 
-  middleschool: {
-    label: translate({ message: "教育/中学" }),
-    description: translate({
-      message: "与中学教育相关的内容",
-      id: "showcase.tag.middleschool.description",
-    }),
-    color: "#fe0999",
-  }, 
-  vocationaledu: {
-    label: translate({ message: "教育/职教" }),
-    description: translate({
-      message: "与职业教育相关的内容",
-      id: "showcase.tag.vocationaledu.description",
-    }),
-    color: "#fe0999",
-  }, 
-  university: {
-    label: translate({ message: "教育/高校" }),
-    description: translate({
-      message: "与高等教育相关的内容",
-      id: "showcase.tag.university.description",
-    }),
-    color: "#fe0999",
-  }, 
-  train: {
-    label: translate({ message: "教育/培训" }),
-    description: translate({
-      message: "与培训教育相关的内容",
-      id: "showcase.tag.train.description",
-    }),
-    color: "#fe0999",
-  }, 
-  studyabroad: {
-    label: translate({ message: "教育/留学" }),
-    description: translate({
-      message: "与留学教育相关的内容",
-      id: "showcase.tag.studyabroad.description",
-    }),
-    color: "#fe0999",
-  }, 
   academic: {
     label: translate({ message: "学术/教师" }),
     description: translate({
       message: "与学术或学校相关的人和事物",
       id: "showcase.tag.academic.description",
     }),
-    color: "#fe6829",
+  color: "#fe6829",
   },
-
   games: {
     label: translate({ message: "游戏" }),
     description: translate({
@@ -205,7 +132,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#574C57",
   },
-
   tool: {
     label: translate({ message: "工具" }),
     description: translate({
@@ -214,7 +140,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#4267b2", // Facebook blue
   },
-
   interpreter: {
     label: translate({ message: "终端/解释器" }),
     description: translate({
@@ -223,7 +148,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#ffa11c", // Facebook blue
   },
-
   language: {
     label: translate({ message: "语言/翻译" }),
     description: translate({
@@ -232,7 +156,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#39ca30",
   },
-
   speech: {
     label: translate({ message: "辩论/演讲" }),
     description: translate({
@@ -241,7 +164,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#9c1d10",
   },
-
   comments: {
     label: translate({ message: "点评/评鉴" }),
     description: translate({
@@ -250,7 +172,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#eeef99",
   },
-
   text: {
     label: translate({ message: "文本/词语" }),
     description: translate({
@@ -259,7 +180,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#554236",
   },
-
   company: {
     label: translate({ message: "企业职位" }),
     description: translate({
@@ -268,7 +188,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#124f4e",
   },
-
   seo: {
     label: translate({ message: "SEO" }),
     description: translate({
@@ -277,7 +196,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#BC9F77",
   },
-
   doctor: {
     label: translate({ message: "医生" }),
     description: translate({
@@ -286,7 +204,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#0e7774",
   },
-
   finance: {
     label: translate({ message: "金融顾问" }),
     description: translate({
@@ -295,7 +212,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#14cfc3",
   },
-
   music: {
     label: translate({ message: "音乐" }),
     description: translate({
@@ -304,7 +220,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#5cecdc",
   },
-
   professional: {
     label: translate({ message: "行业顾问" }),
     description: translate({
@@ -313,7 +228,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#ffcfc3",
   },
-
   contribute: {
     label: translate({ message: "投稿" }),
     description: translate({
@@ -322,7 +236,6 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#cecd21",
   },
-
   personal: {
     label: translate({ message: "Personal" }),
     description: translate({
@@ -347,7 +260,7 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#d6a84d",
   },
-datacenter: {
+ datacenter: {
     label: translate({ message: "数据中心" }),
     description: translate({
       message: "数据中心",
@@ -355,7 +268,6 @@ datacenter: {
     }),
     color: "#d6a84d",
   },
-  
   O2O: {
     label: translate({ message: "O2O" }),
     description: translate({
@@ -391,95 +303,15 @@ datacenter: {
   software: {
     label: translate({ message: "软件" }),
     description: translate({
-      message: "软件",
+      message: "软件/Paas/Iaas/Saas/信息化/中间件/操作系统/数据库",
       id: "showcase.tag.software.description",
     }),
     color: "rgb(21, 95, 223)",
-  },
-  paas: {
-    label: translate({ message: "Paas" }),
-    description: translate({
-      message: "Paas",
-      id: "showcase.tag.paas.description",
-    }),
-    color: "rgb(21, 95, 223)",
-  },
-  software: {
-    label: translate({ message: "软件" }),
-    description: translate({
-      message: "软件",
-      id: "showcase.tag.software.description",
-    }),
-    color: "rgb(21, 95, 223)",
-  },
-  iaas: {
-    label: translate({ message: "Iaas" }),
-    description: translate({
-      message: "Iaas",
-      id: "showcase.tag.iaas.description",
-    }),
-    color: "rgb(21, 95, 223)",
-  },
-  saas: {
-    label: translate({ message: "Saas" }),
-    description: translate({
-      message: "Saas",
-      id: "showcase.tag.saas.description",
-    }),
-    color: "rgb(21, 95, 223)",
-  },
-  information: {
-    label: translate({ message: "信息化" }),
-    description: translate({
-      message: "信息化",
-      id: "showcase.tag.information.description",
-    }),
-    color: "rgb(21, 95, 223)",
-  },
-  middleware: {
-    label: translate({ message: "中间件" }),
-    description: translate({
-      message: "中间件",
-      id: "showcase.tag.middleware.description",
-    }),
-    color: "rgb(21, 95, 223)",
-  },
-  os: {
-    label: translate({ message: "操作系统" }),
-    description: translate({
-      message: "操作系统",
-      id: "showcase.tag.os.description",
-    }),
-    color: "rgb(1, 7, 17)",
-  },
-  database: {
-    label: translate({ message: "数据库" }),
-    description: translate({
-      message: "数据库",
-      id: "showcase.tag.database.description",
-    }),
-    color: "rgb(21, 95, 223)",
-  },
-  infosecurity: {
-    label: translate({ message: "信息安全" }),
-    description: translate({
-      message: "信息安全",
-      id: "showcase.tag.infosecurity.description",
-    }),
-    color: "rgb(223, 61, 21)",
-  },
-  netsecurity: {
-    label: translate({ message: "网络安全" }),
-    description: translate({
-      message: "网络安全",
-      id: "showcase.tag.netsecurity.description",
-    }),
-    color: "rgb(223, 61, 21)",
   },
   security: {
-    label: translate({ message: "安防" }),
+    label: translate({ message: "信息安全" }),
     description: translate({
-      message: "安防",
+      message: "信息安全/网络安全/安防",
       id: "showcase.tag.security.description",
     }),
     color: "rgb(223, 61, 21)",
@@ -516,8 +348,7 @@ write: {
       id: "showcase.tag.write.description",
     }),
     color: "#75581e",
-  },
-  	
+  },	
   article: {
     label: translate({ message: "文章/报告" }),
     description: translate({
@@ -525,31 +356,14 @@ write: {
       id: "showcase.tag.article.description",
     }),
     color: "#dfd545",
-  },
-  
-  cloudservices: {
+  }, 
+  cloudcomputing: {
     label: translate({ message: "云服务" }),
     description: translate({
-      message:"云服务",
+      message:"云服务/云存储/云计算",
       id: "showcase.tag.cloudservices.description",
     }),
     color: "#568c00",
-  },
-  cloudstore: {
-    label: translate({ message: "云存储" }),
-    description: translate({
-      message:"云存储",
-      id: "showcase.tag.cloudstore.description",
-    }),
-    color: "#568c00",
-  },
-  cloudcomputing: {
-    label: translate({ message: "云计算" }),
-    description: translate({
-      message:"云计算",
-      id: "showcase.tag.cloudcomputing.description",
-    }),
-    color: "#476812",
   },
   code: {
     label: translate({ message: "IT/编程" }),
@@ -560,7 +374,6 @@ write: {
     }),
     color: "#8c2f00",
   },
-  
   superfusion: {
     label: translate({ message: "超融合" }),
     description: translate({
@@ -646,130 +459,471 @@ write: {
     label: translate({ message: "旅游" }),
     description: translate({
       message:
-        "旅游",
+        "旅游/出境游/自由行/景区游/免税/酒店/主题公园",
       id: "showcase.tag.travel.description",
     }),
     color: "#dfc55b",
-  },
-
-  outboundtour: {
-    label: translate({ message: "旅游/出境游" }),
-    description: translate({
-      message:
-        "旅游/出境游",
-      id: "showcase.tag.outboundtour.description",
-    }),
-    color: "#c7df5b",
-  },
-  scenicareatour: {
-    label: translate({ message: "旅游/景区游" }),
-    description: translate({
-      message:
-        "旅游/景区游",
-      id: "showcase.tag.scenicareatour.description",
-    }),
-    color: "#bfc90b",
-  },
-  selfguidedtour: {
-    label: translate({ message: "旅游/自由行" }),
-    description: translate({
-      message:
-        "旅游/自由行",
-      id: "showcase.tag.selfguidedtour.description",
-    }),
-    color: "#5bdf5b",
-  },
-  dutyfree: {
-    label: translate({ message: "旅游/免税" }),
-    description: translate({
-      message:
-        "旅游/免税",
-      id: "showcase.tag.dutyfree.description",
-    }),
-    color: "#c1ed76",
-  },
-  hotel: {
-    label: translate({ message: "旅游/酒店" }),
-    description: translate({
-      message:
-        "旅游/酒店",
-      id: "showcase.tag.hotel.description",
-    }),
-    color: "#0d1871",
-  },
-  liner: {
-    label: translate({ message: "旅游/邮轮" }),
-    description: translate({
-      message:
-        "旅游/邮轮",
-      id: "showcase.tag.liner.description",
-    }),
-    color: "#072707",
-  },
-  themepark: {
-    label: translate({ message: "旅游/主题公园" }),
-    description: translate({
-      message:
-        "旅游/主题公园",
-      id: "showcase.tag.themepark.description",
-    }),
-    color: "#1f98d9",
   },
   ecommerce: {
     label: translate({ message: "电商" }),
     description: translate({
       message:
-        "电商",
+        "电商/B2C/B2B/C2C/跨境电商/拼团购",
       id: "showcase.tag.ecommerce.description",
     }),
     color: "#cf690f",
   },
-  b2c: {
-    label: translate({ message: "电商/B2C" }),
+  motherandbaby: {
+    label: translate({ message: "母婴" }),
     description: translate({
       message:
-        "电商/B2C",
-      id: "showcase.tag.ecommerce.description",
+        "母婴",
+      id: "showcase.tag.motherandbaby.description",
     }),
-    color: "#2749cf",
+    color: "#1ee98a",
   },
-  b2b: {
-    label: translate({ message: "电商/B2B" }),
+  logistics: {
+    label: translate({ message: "物流" }),
     description: translate({
       message:
-        "电商/B2B",
-      id: "showcase.tag.ecommerce.description",
+        "物流",
+      id: "showcase.tag.logistics.description",
     }),
-    color: "#5bdf5b",
+    color: "#09512f",
   },
-  c2c: {
-    label: translate({ message: "电商/C2C" }),
+  express: {
+    label: translate({ message: "快递" }),
     description: translate({
       message:
-        "电商/C2C",
-      id: "showcase.tag.ecommerce.description",
+        "快递",
+      id: "showcase.tag.express.description",
     }),
-    color: "#c60910",
+    color: "#e9ce1e",
   },
-  crossborderecommerce: {
-    label: translate({ message: "电商/跨境电商" }),
+  chain: {
+    label: translate({ message: "连锁" }),
     description: translate({
       message:
-        "电商/跨境电商",
-      id: "showcase.tag.crossborderecommerce.description",
+        "连锁",
+      id: "showcase.tag.chain.description",
     }),
-    color: "#7d18e2",
+    color: "#3c7f1a",
   },
-  groupbuying: {
-    label: translate({ message: "电商/拼团购" }),
+  homefurnishing: {
+    label: translate({ message: "家居" }),
     description: translate({
       message:
-        "电商/拼团购",
-      id: "showcase.tag.groupbuying.description",
+        "家居",
+      id: "showcase.tag.homefurnishing.description",
     }),
-    color: "#e9bd1e",
+    color: "#e91ec7",
   },
-  
+  fashion: {
+    label: translate({ message: "时尚" }),
+    description: translate({
+      message:
+        "时尚/珠宝/化妆品/奢侈品",
+      id: "showcase.tag.fashion.description",
+    }),
+    color: "#e91e8e",
+  },
+  retail: {
+    label: translate({ message: "零售" }),
+    description: translate({
+      message:
+        "零售/商超/无人零售/日用百货/办公用品",
+      id: "showcase.tag.retail.description",
+    }),
+    color: "#e91e3d",
+  },
+  fresh: {
+    label: translate({ message: "生鲜" }),
+    description: translate({
+      message:
+        "生鲜",
+      id: "showcase.tag.fresh.description",
+    }),
+    color: "#e9691e",
+  },
+  drink: {
+    label: translate({ message: "饮料" }),
+    description: translate({
+      message:
+        "饮料/咖啡/乳业/茶饮/瓶装水",
+      id: "showcase.tag.drink.description",
+    }),
+    color: "#1ee2e9",
+  },
+  pet: {
+    label: translate({ message: "宠物" }),
+    description: translate({
+      message:
+        "宠物",
+      id: "showcase.tag.pet.description",
+    }),
+    color: "#1e98e9",
+  },
+  traffic: {
+    label: translate({ message: "出行" }),
+    description: translate({
+      message:
+        "出行",
+      id: "showcase.tag.traffic.description",
+    }),
+    color: "#2c1ee9",
+  },
+  food: {
+    label: translate({ message: "食品" }),
+    description: translate({
+      message:
+        "食品/卤制品/肉制品/调味品/保健品/烘焙甜点/休闲零食/速食",
+      id: "showcase.tag.food.description",
+    }),
+    color: "#3d1ee9",
+  },
+  catering: {
+    label: translate({ message: "餐饮" }),
+    description: translate({
+      message:
+        "餐饮/火锅/快餐/中式餐",
+      id: "showcase.tag.catering.description",
+    }),
+    color: "#e9df1e",
+  },
+  wine: {
+    label: translate({ message: "酒类" }),
+    description: translate({
+      message:
+        "酒类/啤酒/白酒/葡萄酒",
+      id: "showcase.tag.wine.description",
+    }),
+    color: "#1ec7e9",
+  }, 
+  retirement: {
+    label: translate({ message: "养老" }),
+    description: translate({
+      message:
+        "养老",
+      id: "showcase.tag.retirement.description",
+    }),
+    color: "#c0e91e",
+  }, 
+  hr: {
+    label: translate({ message: "人力资源" }),
+    description: translate({
+      message:
+        "人力资源",
+      id: "showcase.tag.hr.description",
+    }),
+    color: "#364e09",
+  }, 
+  tobacco: {
+    label: translate({ message: "烟草" }),
+    description: translate({
+      message:
+        "烟草/卷烟/电子烟",
+      id: "showcase.tag.tobacco.description",
+    }),
+    color: "#1e4ae9",
+  }, 
+  toy: {
+    label: translate({ message: "玩具" }),
+    description: translate({
+      message:
+        "玩具",
+      id: "showcase.tag.toy.description",
+    }),
+    color: "#85a035",
+  }, 
+  entertainment: {
+    label: translate({ message: "休闲娱乐" }),
+    description: translate({
+      message:
+        "休闲娱乐",
+      id: "showcase.tag.entertainment.description",
+    }),
+    color: "#5fe776",
+  }, 
+  medicine: {
+    label: translate({ message: "医药" }),
+    description: translate({
+      message:
+        "医药/新药/制剂/仿制药/化学药/生物药/原料药/中成药/维生素",
+      id: "showcase.tag.medicine.description",
+    }),
+    color: "#cee91e",
+  }, 
+  medicalequipment: {
+    label: translate({ message: "医疗器械" }),
+    description: translate({
+      message:
+        "医疗器械/体外诊断/医学影像/医用耗材",
+      id: "showcase.tag.medicalequipment.description",
+    }),
+    color: "#941ee9",
+  }, 
+  gene: {
+    label: translate({ message: "基因技术" }),
+    description: translate({
+      message:
+        "基因技术",
+      id: "showcase.tag.gene.description",
+    }),
+    color: "#c71ee9",
+  }, 
+  medicalservice: {
+    label: translate({ message: "医疗服务" }),
+    description: translate({
+      message:
+        "医疗服务/医院/眼科/口腔/心血管/糖尿病/体检/麻醉/肿瘤/医保/康复/骨科/毛发医疗",
+      id: "showcase.tag.medicalservice.description",
+    }),
+    color: "#e91e6c",
+  }, 
+  vaccinum: {
+    label: translate({ message: "疫苗" }),
+    description: translate({
+      message:
+        "疫苗",
+      id: "showcase.tag.vaccinum.description",
+    }),
+    color: "#32e91e",
+  }, 
+  pharmacy: {
+    label: translate({ message: "药店" }),
+    description: translate({
+      message:
+        "药店",
+      id: "showcase.tag.pharmacy.description",
+    }),
+    color: "#e9a91e",
+  }, 
+  mdicalbeauty: {
+    label: translate({ message: "医疗美容" }),
+    description: translate({
+      message:
+        "医疗美容",
+      id: "showcase.tag.mdicalbeauty.description",
+    }),
+    color: "#1ee9cb",
+  }, 
+  pharmaceuticaloutsourcing: {
+    label: translate({ message: "医药外包" }),
+    description: translate({
+      message:
+        "医药外包/CRO/医药流通",
+      id: "showcase.tag.pharmaceuticaloutsourcing.description",
+    }),
+    color: "#dfe91e",
+  }, 
+  live: {
+    label: translate({ message: "直播" }),
+    description: translate({
+      message:
+        "直播",
+      id: "showcase.tag.live.description",
+    }),
+    color: "#1e6ce9",
+  }, 
+  sport: {
+    label: translate({ message: "体育" }),
+    description: translate({
+      message:
+        "体育",
+      id: "showcase.tag.live.description",
+    }),
+    color: "#281ee9",
+  }, 
+  movie: {
+    label: translate({ message: "影视" }),
+    description: translate({
+      message:
+        "影视/电影/电视剧/综艺/网络剧/影院",
+      id: "showcase.tag.movie.description",
+    }),
+    color: "#249710",
+  }, 
+  game: {
+    label: translate({ message: "游戏" }),
+    description: translate({
+      message:
+        "游戏/手游/页游/端游/主机游戏/云游戏",
+      id: "showcase.tag.game.description",
+    }),
+    color: "#1ee9d8",
+  }, 
+  ads: {
+    label: translate({ message: "广告" }),
+    description: translate({
+      message:
+        "广告/OTT/户外广告/互联网广告",
+      id: "showcase.tag.ads.description",
+    }),
+    color: "#94e91e",
+  },
+  anime: {
+    label: translate({ message: "动漫" }),
+    description: translate({
+      message:
+        "动漫",
+      id: "showcase.tag.anime.description",
+    }),
+    color: "#e9e91e",
+  },
+  video: {
+    label: translate({ message: "视频" }),
+    description: translate({
+      message:
+        "视频/短视频/超高清/在线视频/视频会议",
+      id: "showcase.tag.video.description",
+    }),
+    color: "#621ee9",
+  },
+  audio : {
+    label: translate({ message: "音频" }),
+    description: translate({
+      message:
+        "音频",
+      id: "showcase.tag.audio.description",
+    }),
+    color: "#cb1ee9",
+  },
+  esports: {
+    label: translate({ message: "电竞" }),
+    description: translate({
+      message:
+        "电竞",
+      id: "showcase.tag.esports.description",
+    }),
+    color: "#1ee91e",
+  },
+  read: {
+    label: translate({ message: "阅读" }),
+    description: translate({
+      message:
+        "阅读/图书/出版/书店/网络文学/数字阅读",
+      id: "showcase.tag.read.description",
+    }),
+    color: "#e6e91e",
+  },
+  read: {
+    label: translate({ message: "阅读" }),
+    description: translate({
+      message:
+        "阅读/图书/出版/书店/网络文学/数字阅读",
+      id: "showcase.tag.read.description",
+    }),
+    color: "#1ee925",
+  },
+  knowledgepayment: {
+    label: translate({ message: "知识付费" }),
+    description: translate({
+      message:
+        "知识付费",
+      id: "showcase.tag.knowledgepayment.description",
+    }),
+    color: "#c7e91e",
+  },
+  wemedia: {
+    label: translate({ message: "自媒体" }),
+    description: translate({
+      message:
+        "自媒体",
+      id: "showcase.tag.wemedia.description",
+    }),
+    color: "#391ee9",
+  }, 
+  cyberstareconomy: {
+    label: translate({ message: "网红经济" }),
+    description: translate({
+      message:
+        "网红经济",
+      id: "showcase.tag.cyberstareconomy.description",
+    }),
+    color: "#e9a91e",
+  }, 
+  copyright: {
+    label: translate({ message: "版权" }),
+    description: translate({
+      message:
+        "版权",
+      id: "showcase.tag.copyright.description",
+    }),
+    color: "#1ee958",
+  },
+  semiconductor: {
+    label: translate({ message: "半导体" }),
+    description: translate({
+      message:
+        "半导体/芯片/晶圆/封测/CMOS/存储器/IC设计/射频/FPGA/MEMS/功率器件/溅射靶材/传感器/MCU",
+      id: "showcase.tag.copyright.description",
+    }),
+    color: "#9f6412",
+  },
+  uav: {
+    label: translate({ message: "无人机" }),
+    description: translate({
+      message:
+        "无人机",
+      id: "showcase.tag.uav.description",
+    }),
+    color: "#076321",
+  },
+  car: {
+    label: translate({ message: "汽车" }),
+    description: translate({
+      message:
+        "汽车/整车/零部件/汽车后市场/汽车电子/特种车辆",
+      id: "showcase.tag.car.description",
+    }),
+    color: "#0e9e88",
+  },
+  newmaterials: {
+    label: translate({ message: "新材料" }),
+    description: translate({
+      message:
+        "新材料/硅片/碳纤维/金刚线/染料/玻璃/石墨/粘胶/纳米/钛白粉/陶瓷/锂电材料/膜材料/合金/玻纤",
+      id: "showcase.tag.newmaterials.description",
+    }),
+    color: "#1e39e9",
+  }, 
+robot: {
+  label: translate({ message: "机器人" }),
+  description: translate({
+    message:
+      "机器人",
+    id: "showcase.tag.newmaterials.description",
+  }),
+  color: "#ba1ee9",
+}, 
+led: {
+  label: translate({ message: "LED" }),
+  description: translate({
+    message:
+      "LED",
+    id: "showcase.tag.led.description",
+  }),
+  color: "#1ee9a9",
+}, 
+   
+intelligentmanufacturing: {
+  label: translate({ message: "智能制造" }),
+  description: translate({
+    message:
+      "智能制造",
+    id: "showcase.tag.intelligentmanufacturing.description",
+  }),
+  color: "#69e91e",
+}, 
+aerospace: {
+  label: translate({ message: "航空航天" }),
+  description: translate({
+    message:
+      "航空航天/卫星/航空/商业发射",
+    id: "showcase.tag.aerospace.description",
+  }),
+  color: "#11a878",
+},  
 };
 
 const Users: User[] = UsersData as User[];
