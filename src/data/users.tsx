@@ -117,14 +117,77 @@ export const Tags: { [type in TagType]: Tag } = {
   },
 
   pedagogy: {
-    label: translate({ message: "教育/学生" }),
+    label: translate({ message: "教育" }),
     description: translate({
-      message: "与学生教育相关的内容",
+      message: "与教育相关的内容",
       id: "showcase.tag.pedagogy.description",
     }),
     color: "#fe0999",
   },
-
+  k12: {
+    label: translate({ message: "教育/K12" }),
+    description: translate({
+      message: "与K12教育相关的内容",
+      id: "showcase.tag.k12.description",
+    }),
+    color: "#fe0999",
+  }, 
+  earlyedu: {
+    label: translate({ message: "教育/早教" }),
+    description: translate({
+      message: "与早教相关的内容",
+      id: "showcase.tag.earlyedu.description",
+    }),
+    color: "#fe0999",
+  }, 
+  primaryschool: {
+    label: translate({ message: "教育/小学" }),
+    description: translate({
+      message: "与小学教育相关的内容",
+      id: "showcase.tag.primaryschool.description",
+    }),
+    color: "#fe0999",
+  }, 
+  middleschool: {
+    label: translate({ message: "教育/中学" }),
+    description: translate({
+      message: "与中学教育相关的内容",
+      id: "showcase.tag.middleschool.description",
+    }),
+    color: "#fe0999",
+  }, 
+  vocationaledu: {
+    label: translate({ message: "教育/职教" }),
+    description: translate({
+      message: "与职业教育相关的内容",
+      id: "showcase.tag.vocationaledu.description",
+    }),
+    color: "#fe0999",
+  }, 
+  university: {
+    label: translate({ message: "教育/高校" }),
+    description: translate({
+      message: "与高等教育相关的内容",
+      id: "showcase.tag.university.description",
+    }),
+    color: "#fe0999",
+  }, 
+  train: {
+    label: translate({ message: "教育/培训" }),
+    description: translate({
+      message: "与培训教育相关的内容",
+      id: "showcase.tag.train.description",
+    }),
+    color: "#fe0999",
+  }, 
+  studyabroad: {
+    label: translate({ message: "教育/留学" }),
+    description: translate({
+      message: "与留学教育相关的内容",
+      id: "showcase.tag.studyabroad.description",
+    }),
+    color: "#fe0999",
+  }, 
   academic: {
     label: translate({ message: "学术/教师" }),
     description: translate({
@@ -534,6 +597,71 @@ write: {
     }),
     color: "#121412",
   },
+  operator: {
+    label: translate({ message: "运营商" }),
+    description: translate({
+      message:
+        "运营商",
+      id: "showcase.tag.operator.description",
+    }),
+    color: "#121412",
+  },
+  networkdevice: {
+    label: translate({ message: "网络设备" }),
+    description: translate({
+      message:
+        "网络设备",
+      id: "showcase.tag.networkdevice.description",
+    }),
+    color: "#121412",
+  },
+  internetplus: {
+    label: translate({ message: "互联网+" }),
+    description: translate({
+      message:
+        "互联网+",
+      id: "showcase.tag.internetplus.description",
+    }),
+    color: "#1a921a",
+  },
+  quantum: {
+    label: translate({ message: "量子技术" }),
+    description: translate({
+      message:
+        "量子技术",
+      id: "showcase.tag.quantum.description",
+    }),
+    color: "#5bdf5b",
+  },
+  beidou: {
+    label: translate({ message: "北斗导航" }),
+    description: translate({
+      message:
+        "北斗导航",
+      id: "showcase.tag.beidou.description",
+    }),
+    color: "#5bdf5b",
+  },
+  travel: {
+    label: translate({ message: "旅游/出境游/景区游/自由行/免税/酒店/邮轮/主题公园" }),
+    description: translate({
+      message:
+        "旅游/出境游/景区游/自由行/免税/酒店/邮轮/主题公园",
+      id: "showcase.tag.travel.description",
+    }),
+    color: "#5bdf5b",
+  },
+  ecommerce: {
+    label: translate({ message: "电商/B2C/B2B/C2C/跨境电商/拼团购" }),
+    description: translate({
+      message:
+        "电商/B2C/B2B/C2C/跨境电商/拼团购",
+      id: "showcase.tag.ecommerce.description",
+    }),
+    color: "#5bdf5b",
+  },
+  
+
   
 };
 

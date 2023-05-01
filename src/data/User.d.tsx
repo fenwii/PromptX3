@@ -56,6 +56,13 @@ export type TagType =
   | "philosophy"
   | "mind"
   | "pedagogy"
+  | "k12"
+  | "earlyedu"
+  | "primaryschool"
+  | "middleschool"
+  | "vocationaledu"
+  | "university"
+  |  "studyabroad"
   | "academic"
   | "games"
   | "tool"
@@ -75,6 +82,13 @@ export type TagType =
   | "selfdriving"
   | "blockchain"
   | "ict" //communications technology
+  | "operator"
+  | "networkdevice"
+  | "internetplus"
+  | "quantum"
+  | "beidou" //Beidou Navigation
+  | "travel"
+  | "ecommerce"
   ;
 
 export type Tag = {
