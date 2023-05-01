@@ -20,7 +20,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "rockbenben", // Usually your GitHub org/user name.
+  organizationName: "fenwii", // Usually your GitHub org/user name.
   projectName: "PromptX3", // Usually your repo name.
 
   onBrokenLinks: "throw",
