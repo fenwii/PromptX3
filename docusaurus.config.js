@@ -9,7 +9,7 @@ const enNavbar = require('./src/components/LocalizedNavbar/Navbar.en');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Tag filtering, keyword search, and one-click copy prompts",
-  // tagline: '方便中文使用 ChatGPT 快捷指令',
+  // tagline: '掌握ChatGPT,Midjourney,Stable Diffusion提示词技术，让提问，想象力和思辨成为第一生产力',
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -48,7 +48,7 @@ const config = {
           customCss: require.resolve("./src/css/custom.css"),
         },
         gtag: {
-          trackingID: "G-YJY639H2J1",
+          trackingID: "GTM-NBMFG54",
           anonymizeIP: false,
         },
       }),

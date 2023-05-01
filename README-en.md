@@ -5,7 +5,7 @@
     English | <a href="./README.md">中文</a>
 </p>
 <p align="center">
-    <em>Maximize your Efficiency and Productivity</em>
+    <em>Master ChatGPT,Midjourney,Stable Diffusion Prompt Skill，Make questioning, imagination, and speculation the primary productive forces</em>
 </p>
 
 ## Why use Prompt X3?
@@ -14,7 +14,7 @@
 - 💻 **Amplify productivity**: By using optimized prompts, users can get more accurate and useful replies, thereby improving productivity.
 - 🎓 **Beginner-friendly**: Even beginners only need to copy the prompt, make slight modifications and send it to ChatGPT to obtain the specified output.
 - 🆕 **Regular updates**: The prompts of Prompt X3 come from network selection, submissions and [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts). They are regularly updated to provide users with new prompts and ideas.
-- 📦 **Ready-to-use**: <https://aishort.top/en/>
+- 📦 **Ready-to-use**: <https://promptx3.app/en/>
 
 ## Instructions
 
@@ -56,7 +56,7 @@ Although ChatGPT is very powerful, it is not omnipotent. Sometimes it may output
 
 ### Function of prompt
 
-All prompts are from the Internet and will be updated regularly. Although I have tested every prompt, the actual effect may deviate due to different needs.If you find any errors or have creative ideas or good prompts, welcome [feedback and submission](https://github.com/rockbenben/PromptX3/discussions/11).
+All prompts are from the Internet and will be updated regularly. Although I have tested every prompt, the actual effect may deviate due to different needs.If you find any errors or have creative ideas or good prompts, welcome [feedback and submission](https://github.com/fenwii/PromptX3/discussions/11).
 
 In addition, prompts can not only be used for work production, but more importantly help you develop your thinking skills,broaden your mind,and consider problems from multiple perspectives,and solve problems that people tend to overlook while thinking.
 
@@ -64,17 +64,29 @@ In addition, prompts can not only be used for work production, but more importan
 
 ### Deploy With Vercel
 
-[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frockbenben%2FPromptX3%2Ftree%2Fgh-pages)
+[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/fenwii/PromptX3.git)
 
-### Installation
+### Reference and Learning
 
 ```shell
-# Installation
-yarn
+# prompt-design
+https://platform.openai.com/docs/guides/completion/prompt-design
 
-# Local Development
-yarn start
+# PromptPapers
+https://github.com/thunlp/PromptPapers
 
-# Build: This command generates static content into the `build` directory
-yarn build
+# chatgpt-prompt-engineering-for-developers
+https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
+
+# awesome-chatgpt-prompts
+https://github.com/f/awesome-chatgpt-prompts
+
+# awesome-chatgpt-prompts-zh
+https://github.com/PlexPt/awesome-chatgpt-prompts-zh
+
+# Prompt-Engineering-Guide
+https://github.com/dair-ai/Prompt-Engineering-Guide
+
+# ChatGPT-Shortcut
+https://github.com/rockbenben/ChatGPT-Shortcut
 ```
