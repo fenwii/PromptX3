@@ -631,7 +631,7 @@ write: {
         "量子技术",
       id: "showcase.tag.quantum.description",
     }),
-    color: "#5bdf5b",
+    color: "#0ce90c",
   },
   beidou: {
     label: translate({ message: "北斗导航" }),
@@ -649,7 +649,7 @@ write: {
         "旅游",
       id: "showcase.tag.travel.description",
     }),
-    color: "#5bdf5b",
+    color: "#dfc55b",
   },
 
   outboundtour: {
@@ -659,7 +659,7 @@ write: {
         "旅游/出境游",
       id: "showcase.tag.outboundtour.description",
     }),
-    color: "#5bdf5b",
+    color: "#c7df5b",
   },
   scenicareatour: {
     label: translate({ message: "旅游/景区游" }),
@@ -668,7 +668,7 @@ write: {
         "旅游/景区游",
       id: "showcase.tag.scenicareatour.description",
     }),
-    color: "#5bdf5b",
+    color: "#bfc90b",
   },
   selfguidedtour: {
     label: translate({ message: "旅游/自由行" }),
@@ -686,7 +686,7 @@ write: {
         "旅游/免税",
       id: "showcase.tag.dutyfree.description",
     }),
-    color: "#5bdf5b",
+    color: "#c1ed76",
   },
   hotel: {
     label: translate({ message: "旅游/酒店" }),
@@ -695,7 +695,7 @@ write: {
         "旅游/酒店",
       id: "showcase.tag.hotel.description",
     }),
-    color: "#5bdf5b",
+    color: "#0d1871",
   },
   liner: {
     label: translate({ message: "旅游/邮轮" }),
@@ -704,7 +704,7 @@ write: {
         "旅游/邮轮",
       id: "showcase.tag.liner.description",
     }),
-    color: "#5bdf5b",
+    color: "#072707",
   },
   themepark: {
     label: translate({ message: "旅游/主题公园" }),
@@ -713,19 +713,62 @@ write: {
         "旅游/主题公园",
       id: "showcase.tag.themepark.description",
     }),
-    color: "#5bdf5b",
+    color: "#1f98d9",
   },
   ecommerce: {
-    label: translate({ message: "电商/B2C/B2B/C2C/跨境电商/拼团购" }),
+    label: translate({ message: "电商" }),
     description: translate({
       message:
-        "电商/B2C/B2B/C2C/跨境电商/拼团购",
+        "电商",
+      id: "showcase.tag.ecommerce.description",
+    }),
+    color: "#cf690f",
+  },
+  b2c: {
+    label: translate({ message: "电商/B2C" }),
+    description: translate({
+      message:
+        "电商/B2C",
+      id: "showcase.tag.ecommerce.description",
+    }),
+    color: "#2749cf",
+  },
+  b2b: {
+    label: translate({ message: "电商/B2B" }),
+    description: translate({
+      message:
+        "电商/B2B",
       id: "showcase.tag.ecommerce.description",
     }),
     color: "#5bdf5b",
   },
-  
-
+  c2c: {
+    label: translate({ message: "电商/C2C" }),
+    description: translate({
+      message:
+        "电商/C2C",
+      id: "showcase.tag.ecommerce.description",
+    }),
+    color: "#c60910",
+  },
+  crossborderecommerce: {
+    label: translate({ message: "电商/跨境电商" }),
+    description: translate({
+      message:
+        "电商/跨境电商",
+      id: "showcase.tag.crossborderecommerce.description",
+    }),
+    color: "#7d18e2",
+  },
+  groupbuying: {
+    label: translate({ message: "电商/拼团购" }),
+    description: translate({
+      message:
+        "电商/拼团购",
+      id: "showcase.tag.groupbuying.description",
+    }),
+    color: "#e9bd1e",
+  },
   
 };
 

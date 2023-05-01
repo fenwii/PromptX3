@@ -96,6 +96,11 @@ export type TagType =
   | "liner"
   | "themepark"
   | "ecommerce"
+  | "b2c"
+  | "b2b"
+  | "c2c"
+  | "crossborderecommerce"
+  | "groupbuying"
   ;
 
 export type Tag = {
