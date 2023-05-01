@@ -643,11 +643,75 @@ write: {
     color: "#5bdf5b",
   },
   travel: {
-    label: translate({ message: "旅游/出境游/景区游/自由行/免税/酒店/邮轮/主题公园" }),
+    label: translate({ message: "旅游" }),
     description: translate({
       message:
-        "旅游/出境游/景区游/自由行/免税/酒店/邮轮/主题公园",
+        "旅游",
       id: "showcase.tag.travel.description",
+    }),
+    color: "#5bdf5b",
+  },
+
+  outboundtour: {
+    label: translate({ message: "旅游/出境游" }),
+    description: translate({
+      message:
+        "旅游/出境游",
+      id: "showcase.tag.outboundtour.description",
+    }),
+    color: "#5bdf5b",
+  },
+  scenicareatour: {
+    label: translate({ message: "旅游/景区游" }),
+    description: translate({
+      message:
+        "旅游/景区游",
+      id: "showcase.tag.scenicareatour.description",
+    }),
+    color: "#5bdf5b",
+  },
+  selfguidedtour: {
+    label: translate({ message: "旅游/自由行" }),
+    description: translate({
+      message:
+        "旅游/自由行",
+      id: "showcase.tag.selfguidedtour.description",
+    }),
+    color: "#5bdf5b",
+  },
+  dutyfree: {
+    label: translate({ message: "旅游/免税" }),
+    description: translate({
+      message:
+        "旅游/免税",
+      id: "showcase.tag.dutyfree.description",
+    }),
+    color: "#5bdf5b",
+  },
+  hotel: {
+    label: translate({ message: "旅游/酒店" }),
+    description: translate({
+      message:
+        "旅游/酒店",
+      id: "showcase.tag.hotel.description",
+    }),
+    color: "#5bdf5b",
+  },
+  liner: {
+    label: translate({ message: "旅游/邮轮" }),
+    description: translate({
+      message:
+        "旅游/邮轮",
+      id: "showcase.tag.liner.description",
+    }),
+    color: "#5bdf5b",
+  },
+  themepark: {
+    label: translate({ message: "旅游/主题公园" }),
+    description: translate({
+      message:
+        "旅游/主题公园",
+      id: "showcase.tag.themepark.description",
     }),
     color: "#5bdf5b",
   },

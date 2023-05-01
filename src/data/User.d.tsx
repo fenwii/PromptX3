@@ -88,6 +88,13 @@ export type TagType =
   | "quantum"
   | "beidou" //Beidou Navigation
   | "travel"
+  | "outboundtour"
+  | "scenicareatour"
+  | "selfguidedtour"
+  | "dutyfree"
+  | "hotel"
+  | "liner"
+  | "themepark"
   | "ecommerce"
   ;
 
