@@ -44,6 +44,11 @@ export type TagType =
   | "cloudcomputing"
   | "code"
   | "ai"
+  | "superfusion"
+  | "fiveg" //5g
+  | "shareeconomy"
+  | "treedtechnology"//3d technology
+  | "vrar"
   | "living"
   | "interesting"
   | "life"
@@ -66,7 +71,11 @@ export type TagType =
   | "music"
   | "professional"
   | "contribute"
-  | "personal";
+  | "personal"
+  | "selfdriving"
+  | "blockchain"
+  | "ict" //communications technology
+  ;
 
 export type Tag = {
   label: string;
