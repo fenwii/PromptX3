@@ -13,7 +13,7 @@
 - 🚀 **Simplified process**: Prompt X3 provides a quick command table that can quickly filter and search for prompts suitable for different scenarios, helping users simplify the usage process.
 - 💻 **Amplify productivity**: By using optimized prompts, users can get more accurate and useful replies, thereby improving productivity.
 - 🎓 **Beginner-friendly**: Even beginners only need to copy the prompt, make slight modifications and send it to ChatGPT to obtain the specified output.
-- 🆕 **Regular updates**: The prompts of Prompt X3 come from network selection, submissions and [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts). They are regularly updated to provide users with new prompts and ideas.
+- 🆕 **Regular updates**: The prompts of Prompt X3 come from practice experience，network selection, submissions and [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts). They are regularly updated to provide users with new prompts and ideas.
 - 📦 **Ready-to-use**: <https://promptx3.app/en/>
 
 ## Instructions
@@ -56,7 +56,7 @@ Although ChatGPT is very powerful, it is not omnipotent. Sometimes it may output
 
 ### Function of prompt
 
-All prompts are from the Internet and will be updated regularly. Although I have tested every prompt, the actual effect may deviate due to different needs.If you find any errors or have creative ideas or good prompts, welcome [feedback and submission](https://github.com/fenwii/PromptX3/discussions/11).
+All prompts are from the Internet and will be updated regularly. Although I have tested every prompt, the actual effect may deviate due to different needs.If you find any errors or have creative ideas or good prompts, welcome [feedback and submission](https://c9ki7hypo6.feishu.cn/docx/D0JFdbjoUoMthCxd311c0v4Snng).
 
 In addition, prompts can not only be used for work production, but more importantly help you develop your thinking skills,broaden your mind,and consider problems from multiple perspectives,and solve problems that people tend to overlook while thinking.
 

@@ -13,7 +13,7 @@
 - 🚀 **简化流程**：Prompt X3 提供了快捷指令表，可以快速筛选和搜索适用于不同场景的提示词，帮助用户简化使用流程。
 - 💻 **提高生产力**：通过使用优化过的提示词，用户可以获得更加准确、有用的回复，从而提高生产力。
 - 🎓 **适合初学者**：即使是初学者，只需复制提示词，稍加修改后发送给 ChatGPT，就能获得指定输出。
-- 🆕 **定期更新**：Prompt X3 的提示词来自网络精选、投稿和 [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)，定期进行更新，为用户提供新的提示词和思路。
+- 🆕 **定期更新**：Prompt X3 的提示词来自实践经验，网络精选、投稿和 [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)，定期进行更新，为用户提供新的提示词和思路。
 - 🇨🇳 **中文优化**：虽然提示词仍然使用英文，但提供了中文翻译，支持默认中文回复，方便中文用户理解和使用。
 - 📦 **开箱即用**：<https://www.promptx3.app/> <a href="https://www.promptx3.app">
   <img src="https://user-images.githubusercontent.com/3750161/214147732-c75e96a4-48a4-4b64-b407-c2402e899a75.PNG" height="40" alt="Chrome" valign="middle">
@@ -85,7 +85,7 @@ ChatGPT 虽然非常强大，但并不是万能的。有时它会输出虚假信
 
 ### 提示词不好用
 
-所有提示词均来自互联网，会定期进行更新。虽然我测试过每一条提示词，但实际效果可能因需求而有所偏差。如果你发现任何错误、有创意的想法或有好的提示词，欢迎[反馈和投稿](https://github.com/fenwii/PromptX3/discussions/11)。
+所有提示词均来自互联网，会定期进行更新。虽然我测试过每一条提示词，但实际效果可能因需求而有所偏差。如果你发现任何错误、有创意的想法或有好的提示词，欢迎[反馈和投稿](https://c9ki7hypo6.feishu.cn/docx/D0JFdbjoUoMthCxd311c0v4Snng)。
 
 如果你是进行摘要总结，可以使用 GPT 对原有回答进行再次修正，以提高回答的精度。此外，提示词不仅能用于工作生产，更重要的是帮助你开拓思路、发散思维，从多个角度考虑问题，并解决人们在思考时容易忽略的问题。
 
