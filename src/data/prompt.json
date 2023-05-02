@@ -4176,7 +4176,24 @@
     ],
     "id": 242,
     "weight": 1000
+  },
+  {
+    "title": "自助维基百科",
+    "description": "I want you to act as a Wikipedia when providing questions or concepts [questions or concepts]. Can you provide an introduction and explanation? eg: what are the disciplines of natural sciences?",
+    "desc_cn": "我想让你充当维基百科，当给出问题或概念 [问题或概念] 。你给出介绍和解释？例如：自然科学学科有哪些？",
+    "remark": "根据输入的问题或概念，给出维基百科的相关介绍和解释。",
+    "title_en": "Self service Wikipedia",
+    "desc_en": "I want you to act as a Wikipedia when providing questions or concepts [questions or concepts]. Can you provide an introduction and explanation? eg: what are the disciplines of natural sciences?",
+    "remark_en": "Provide relevant introductions and explanations to Wikipedia based on the input questions or concepts.",
+    "preview": null,
+    "website": "",
+    "source": null,
+    "tags": [
+      "knowledgetools"
+    ],
+    "id": 243,
+    "weight": 1000
   }
-
+  
   
 ]

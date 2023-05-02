@@ -121,6 +121,7 @@ export type TagType =
   | "led"
   | "intelligentmanufacturing"
   | "aerospace"
+  | "knowledgetools"
   ;
 
 export type Tag = {
