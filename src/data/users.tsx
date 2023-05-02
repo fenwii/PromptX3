@@ -28,6 +28,14 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#ff6100", // Facebook blue
   },
+  knowledgetools: {
+    label: translate({ message: "知识工具" }),
+    description: translate({
+      message: "知识工具/百科/字典",
+      id: "showcase.tag.knowledgetools.description",
+    }),
+    color: "#a44fb7",
+  },
   fiveg: {
     label: translate({ message: "5G" }),
     description: translate({
