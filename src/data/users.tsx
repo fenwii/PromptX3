@@ -109,7 +109,7 @@ export const Tags: { [type in TagType]: Tag } = {
     color: "#86699e",
   },
   pedagogy: {
-    label: translate({ message: "教育" }),
+    label: translate({ message: "Ai教育" }),
     description: translate({
       message: "教育相关的内容,K12/早教/小学/中学/职教/高校/培训/留学",
       id: "showcase.tag.pedagogy.description",

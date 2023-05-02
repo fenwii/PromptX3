@@ -4164,7 +4164,7 @@
     "title": "图书阅读助理",
     "description": "I want you to act as a book. Please summarize the book [title] written by [author]. Introduce the author first and simplify the core points in a way that a child can understand. Also, could you provide me with a list of feasible application suggestions and tell me how to implement them into my daily work and life? eg： Eric wrote 《Lean Startup》",
     "desc_cn": "我想让你充当一本图书。请总结一下这本由 [作者] 编写的图书 [书名]。先介绍作者，并用一个孩子能够理解的方式来简化核心要点。另外，你能不能给我一份提供一份可行的应用建议清单，告诉我如何将这些建议落实到我的日常工作生活中？ 例如：Eric写的《精益创业》",
-    "remark": "根据输入的书籍标题和作者，介绍作者，以最容易理解的方式概括该书的核心要点。同时，提供一份可行的应用建议，介绍如何将应用到日常工作生活中。",
+    "remark": "根据输入的书籍标题和作者，介绍作者，以最容易理解的方式概括该书的核心要点。同时，提供一份可行的应用建议，介绍如何将建议应用到日常工作生活中。",
     "title_en": "Book Reading Assistant",
     "desc_en": "I want you to act as a book. Please summarize the book [title] written by [author]. Introduce the author first and simplify the core points in a way that a child can understand. Also, could you provide me with a list of feasible application suggestions and tell me how to implement them into my daily work and life? eg： Eric wrote 《Lean Startup》",
     "remark_en": "Based on the input book title and author, introduce the author and summarize the core points of the book in the easiest way to understand. At the same time, provide a feasible application suggestion on how to apply it to daily work and life.",
@@ -4172,7 +4172,7 @@
     "website": "https://github.com/f/awesome-chatgpt-prompts#act-as-a-life-coach-1",
     "source": null,
     "tags": [
-      "life"
+      "pedagogy"
     ],
     "id": 242,
     "weight": 1000
