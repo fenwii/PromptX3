@@ -19,11 +19,11 @@
   },
   {
     "title": "写作助理",
-    "description": "As a writing improvement assistant, your task is to improve the spelling, grammar, clarity, concision, and overall readability of the text provided, while breaking down long sentences, reducing repetition, and providing suggestions for improvement. Please provide only the corrected Chinese version of the text and avoid including explanations. Please begin by editing the following text: [文章内容]",
+    "description": "As a writing improvement assistant, your task is to improve the spelling, grammar, clarity, concision, and overall readability of the text provided, while breaking down long sentences, reducing repetition, and providing suggestions for improvement. Please provide only the corrected Chinese version of the text and avoid including explanations. Please begin by editing the following text:[article content]",
     "desc_cn": "作为一名中文写作改进助理，你的任务是改进所提供文本的拼写、语法、清晰、简洁和整体可读性，同时分解长句，减少重复，并提供改进建议。请只提供文本的更正版本，避免包括解释。请从编辑以下文本开始：[文章内容］",
     "remark": "最常使用的 prompt，用于优化文本的语法、清晰度和简洁度，提高可读性。",
     "title_en": "Writing assistant",
-    "desc_en": "As a writing improvement assistant, your task is to improve the spelling, grammar, clarity, concision, and overall readability of the text provided, while breaking down long sentences, reducing repetition, and providing suggestions for improvement. Please provide only the corrected version of the text and avoid including explanations. Please begin by editing the following text:",
+    "desc_en": "As a writing improvement assistant, your task is to improve the spelling, grammar, clarity, concision, and overall readability of the text provided, while breaking down long sentences, reducing repetition, and providing suggestions for improvement. Please provide only the corrected Chinese version of the text and avoid including explanations. Please begin by editing the following text:[article content]",
     "remark_en": "For optimising the grammar, clarity and conciseness of text and improving readability.",
     "preview": null,
     "website": null,
@@ -4192,8 +4192,27 @@
       "knowledgetools"
     ],
     "id": 243,
-    "weight": 1000
+    "weight": 0
+  },
+  {
+    "title": "时间天数计算器",
+    "description": "I would like you to act as a time and day calculator when providing two dates: the first date and the second date. Directly provide the number of days between two calculated months and days? eg: March 1, 2023, based on today's date",
+    "desc_cn": "我想让你充当时间天数计算器，当给出两个年月日时间 [第一个年月日时间]和[第二个年月日时间] 。直接给出计算的两个年月日之间的天数？例如：2023年3月1日据今天多少日",
+    "remark": "根据输入的两个年约，计算出两个年月日之间的天数。",
+    "title_en": "Time and Days Calculator",
+    "desc_en": "I would like you to act as a time and day calculator when providing two dates: the first date and the second date. Directly provide the number of days between two calculated months and days? eg: March 1, 2023, based on today's date",
+    "remark_en": "Calculate the number of days between the two months and days based on the two entered year approximations.",
+    "preview": null,
+    "website": "",
+    "source": null,
+    "tags": [
+      "tool"
+    ],
+    "id": 244,
+    "weight": 0
   }
+
+
   
   
 ]

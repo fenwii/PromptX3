@@ -141,9 +141,9 @@ export const Tags: { [type in TagType]: Tag } = {
     color: "#574C57",
   },
   tool: {
-    label: translate({ message: "工具" }),
+    label: translate({ message: "Ai工具" }),
     description: translate({
-      message: "工具",
+      message: "Ai工具",
       id: "showcase.tag.tool.description",
     }),
     color: "#4267b2", // Facebook blue

@@ -70,10 +70,13 @@ function ShowcaseCard({ user, isDescription, copyCount, onCopy }) {
   function handleParagraphClick() {
     if (paragraphText === user.description) {
       setParagraphText(user.desc_cn);
+      copy(user.desc_cn);
     } else {
       setParagraphText(user.description);
+      copy(user.description);
     }
   }
+ 
   const { i18n } = useDocusaurusContext();
   const currentLanguage = i18n.currentLocale;
   const userTitle = currentLanguage === "en" ? user.title_en : user.title;
@@ -87,12 +90,22 @@ function ShowcaseCard({ user, isDescription, copyCount, onCopy }) {
   const handleCopyClick = useCallback(async () => {
     try {
       const updatedCount = await updateCopyCount(user.id);
-      if (user.description) {
-        copy(user.description);
+      if(isDescription) 
+      {
+        onCopy(user.description,userDescription);
       }
+      else
+      {
+        copy(user.desc_cn,userDescription);
+      }
+      
+      
+   
       setShowCopied(true);
       setTimeout(() => setShowCopied(false), 2000);
       // Notify parent component to update the copy count
+
+      
       onCopy(user.id, updatedCount);
     } catch (error) {
       console.error("Error updating copy count:", error);
