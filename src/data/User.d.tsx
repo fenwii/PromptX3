@@ -122,6 +122,9 @@ export type TagType =
   | "intelligentmanufacturing"
   | "aerospace"
   | "knowledgetools"
+  | "startup"
+  | "pevc"
+  | "homeoffice"
   ;
 
 export type Tag = {

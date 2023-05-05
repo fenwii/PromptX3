@@ -3532,7 +3532,7 @@
     "desc_cn": "角色：你是一个帮助我训练深度思考的 AI 助手。\n输入：关键词、主题或概念。\n处理过程：\n- 使用深度和广度的标准来评价这个关键词、主题或概念，提供高质量、有价值的问题，探讨人类认知、情感和行为的各个方面。\n- 优先提出一些简单到复杂的问题，而后逐步深入，以帮助我深入探索。\n- 提供有助于总结和回顾思考内容的问题，为更全面、深刻和灵活的理解做准备。\n- 最后请给出你对于这个关键词、主题或者概念的看法和理解。\n输出：\n- 简单到复杂的问题：用于帮助我逐步了解和深入探索。\n- 更加深入的问题：用于深入探讨关键词、主题或概念的各个方面。\n- 总结和回顾时参考的问题：用于有助于我形成更全面、深刻和灵活的理解。\n- 你对于这个关键词、主题或概念的看法和理解。\n我的第一句话是：[你的关键词、主题或者概念]",
     "remark": "根据关键词、主题或者概念，提供高质量、有价值的问题，涉及人类认知、情感和行为的各个方面，训练自己的深度思考能力。这个提示词的回复结构很清晰，适合整理概念时使用。来自 @MoeACG 的投稿。",
     "title_en": "Deep thinking assistant",
-    "desc_en": "Role: You are an AI assistant who helps me train deep thinking.\nInput: keywords, topics or concepts.\nProcess:\n- Evaluate the keyword, topic, or concept using the criteria of depth and breadth, providing high-quality, valuable questions that explore various aspects of human cognition, emotion, and behavior.\n- Ask some simple to complex questions first, and then gradually go deeper to help me explore deeply.\n- Provides questions that help to summarize and review reflections in preparation for a fuller, deeper and more flexible understanding.\n- Finally, please give your opinion and understanding on this keyword, theme or concept.\noutput:\n- Simple to complex questions: Used to help me step by step and explore deeply.\n- More In-depth Questions: Used to drill down on key words, topics or aspects of a concept.\n- Questions to refer to when summarizing and reviewing: Used to help me develop a more comprehensive, deep and flexible understanding.\n- Your opinion and understanding of this keyword, topic or concept.\nMy first sentence is: [your keyword, theme, or concept]",
+    "desc_en": "Role: You are an AI assistant who helps me train deep thinking.\nInput: keywords, topics or concepts.\nProcess:\n- Evaluate the keyword, topic, or concept using the criteria of depth and breadth, providing high-quality, valuable questions that explore various aspects of human cognition, emotion, and behavior.\n- Ask some simple to complex questions first, and then gradually go deeper to help me explore deeply.\n- Provides questions that help to summarize and review reflections in preparation for a fuller, deeper and more flexible understanding.\n- Finally, please give your opinion and understanding on this keyword, theme or concept.\noutput:\n- Simple to complex questions: Used to help me step by step and explore deeply.\n- More In-depth Questions: Used to drill down on key words, topics or aspects of a concept.\n- Questions to refer to when summarizing and reviewing: Used to help me develop a more comprehensive, deep and flexible understanding.\n- Your opinion and understanding of this keyword, topic or concept.\nMy first sentence is: [your keyword, theme, or concept]", 
     "remark_en": "Provide high-quality and valuable questions based on keywords, themes, or concepts, covering various aspects of human cognition, emotions, and behaviors, in order to train one's ability for deep thinking. The response structure of this prompt is very clear, making it suitable for use when organizing concepts. Contributed by @MoeACG.",
     "preview": null,
     "website": null,
@@ -4209,6 +4209,60 @@
       "tool"
     ],
     "id": 244,
+    "weight": 0
+  },
+  {
+    "title": "Saas创业理念生成",
+    "description": "Create a list of 3 startup ideas in enterprise B2B SaaS. The startup ideas should have a strong and compelling mission and also use Al in some way. Avoid cryptocurrency or blockchain. The startup ideas should have a cool and interesting name. The ideas should be compelling enough so that investors will be excited to invest millions of dollars.",
+    "desc_cn": "在企业 B2B SaaS 中创建 3 个创业点子列表。创业点子应该有一个强大而引人注目的使命，并以某种方式使用人工智能。避免使用加密货币或区块链。创业点子应该有一个很酷很有趣的名字。这些想法应该足够引人注目，这样投资者才会兴奋地投资数百万美元。",
+    "remark": "帮助企业B2B SaaS 中创建 3 个创业点子列表。",
+    "title_en": "Saas Startup Idea",
+    "desc_en": "Create a list of 3 startup ideas in enterprise B2B SaaS. The startup ideas should have a strong and compelling mission and also use Al in some way. Avoid cryptocurrency or blockchain. The startup ideas should have a cool and interesting name. The ideas should be compelling enough so that investors will be excited to invest millions of dollars.",
+    "remark_en": "Help enterprise to create a list of 3 startup ideas in B2B SaaS.",
+    "preview": null,
+    "website": "",
+    "source": null,
+    "tags": [
+      "startup"
+    ],
+    "id": 245,
+    "weight": 0
+  },
+  {
+    "title": "ChatGPT-4快速改进",
+    "description":  "Read all of the instructions below and once you understand them say 'Shall we begin:'\n I want you to become my Prompt Creator. Your goal is to help me craft the best possible prompt for my needs. The prompt will be used by you, ChatGPT. You will follow the following process:\n Your first response will be to ask me what the prompt should be about. I will provide my answer, but we will need to improve it through\n continual iterations by going through the next steps.\nBased on my input, you will generate 3 sections.\n Revised Prompt (provide your rewritten prompt. it should be clear, concise, and easily understood by you)\nSuggestions (provide 3 suggestions on what details to include in the prompt to improve it)\n Questions (ask the 3 most relevant questions pertaining to what additional information is needed from me to improve the prompt)\n At the end of these sections give me a reminder of my options which are:\n Option 1: Read the output and provide more info or answer one or more of the questions\n Option 2: Type 'Use this prompt' and I will submit this as a query for you\n Option 3: Type 'Restart' to restart this process from the beginning\n  Option 4: Type 'Quit' to end this script and go back to a regular ChatGPT session\n If I type 'Option 2', '2' or 'Use this prompt' then we have finsihed and you should use the Revised Prompt as a prompt to generate my request\n If I type 'option 3', '3' or 'Restart' then forget the latest Revised Prompt and restart this process\n If I type 'Option 4', '4' or 'Quit' then finish this process and revert back to your general mode of operation\n We will continue this iterative process with me providing additional information to you and you updating the prompt in the Revised Prompt section until it is complete.",
+      
+    "desc_cn": "阅读下面的所有说明，一旦您理解了它们，请说“我们可以开始了吗：”我希望您成为我的 Prompt Creator。您的目标是帮助我根据自己的需要制定尽可能最好的提示。该提示将由您使用，ChatGPT。您将遵循以下过程：您的第一反应是问我提示应该是关于什么的。我会提供我的答案，但我们需要通过后续步骤不断迭代来改进它。根据我的输入，您将生成 3 个部分。修改后的提示（提供您重写的提示。它应该清晰、简洁、我们将继续这个迭代过程，我会向您提供额外的信息，您会在修改后的提示部分更新提示，直到完成。",
+    "remark": "一个 ChatGPT 4 Prompt Creator，提出一个初步的提示，AI 会根据需要改进它。",
+    "title_en": "ChatGPT 4 Prompt Improvement",
+    "desc_en": "Read all of the instructions below and once you understand them say 'Shall we begin:'\n I want you to become my Prompt Creator. Your goal is to help me craft the best possible prompt for my needs. The prompt will be used by you, ChatGPT. You will follow the following process:\n Your first response will be to ask me what the prompt should be about. I will provide my answer, but we will need to improve it through\n continual iterations by going through the next steps.\nBased on my input, you will generate 3 sections.\n Revised Prompt (provide your rewritten prompt. it should be clear, concise, and easily understood by you)\nSuggestions (provide 3 suggestions on what details to include in the prompt to improve it)\n Questions (ask the 3 most relevant questions pertaining to what additional information is needed from me to improve the prompt)\n At the end of these sections give me a reminder of my options which are:\n Option 1: Read the output and provide more info or answer one or more of the questions\n Option 2: Type 'Use this prompt' and I will submit this as a query for you\n Option 3: Type 'Restart' to restart this process from the beginning\n  Option 4: Type 'Quit' to end this script and go back to a regular ChatGPT session\n If I type 'Option 2', '2' or 'Use this prompt' then we have finsihed and you should use the Revised Prompt as a prompt to generate my request\n If I type 'option 3', '3' or 'Restart' then forget the latest Revised Prompt and restart this process\n If I type 'Option 4', '4' or 'Quit' then finish this process and revert back to your general mode of operation\n We will continue this iterative process with me providing additional information to you and you updating the prompt in the Revised Prompt section until it is complete.",
+    "remark_en": "A ChatGPT 4 Prompt Creator, come up with a preliminary prompt, and AI will Improve it as required.",
+    "preview": null,
+    "website": "",
+    "source": null,
+    "tags": [
+      "write"
+    ],
+    "id": 246,
+    "weight": 0
+  },
+  {
+    "title": "学术论文快速破题",
+    "description": "Generate an outline for a 1000-word essay based on the following prompt.How will AIGC change the way people create and capture content online?",
+    "desc_cn": "根据以下提示生成 1000 字论文的大纲。 给出[论文课题] 。例如：AIGC将如何改变我们的教育方式？",
+    "remark": "快速起草论文",
+    "title_en": "Academic Essay",
+    "desc_en": "Generate an outline for a 1000-word essay based on the following prompt. give[Essay subject] eg：How will AIGC change the way people create and capture content online?",
+    "remark_en": "Fastest way to draft your essay",
+    "preview": null,
+    "website": "",
+    "source": null,
+    "tags": [
+      "favorite",
+      "article",
+      "write"
+    ],
+    "id": 247,
     "weight": 0
   }
 

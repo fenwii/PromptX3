@@ -36,6 +36,30 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#a44fb7",
   },
+  startup: {
+    label: translate({ message: "创业" }),
+    description: translate({
+      message: "创业全生命周期",
+      id: "showcase.tag.startup.description",
+    }),
+    color: "#1d2fcf",
+  },
+  pevc: {
+    label: translate({ message: "创投" }),
+    description: translate({
+      message: "创投全生命周期",
+      id: "showcase.tag.pevc.description",
+    }),
+    color: "#0e71f3",
+  },
+  homeoffice: {
+    label: translate({ message: "家族办公室" }),
+    description: translate({
+      message: "家族办公室全生命周期",
+      id: "showcase.tag.homeoffice.description",
+    }),
+    color: "#11de4b",
+  },
   fiveg: {
     label: translate({ message: "5G" }),
     description: translate({
