@@ -1135,16 +1135,6 @@ watertreatment: {
   }),
   color: "#10e457",
 },
-
-watertreatment: {
-  label: translate({ message: "水处理" }),
-  description: translate({
-    message:
-      "水处理",
-    id: "showcase.tag.watertreatment.description",
-  }),
-  color: "#10e457",
-},
 energystorage: {
   label: translate({ message: "储能" }),
   description: translate({
