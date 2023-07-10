@@ -34,6 +34,8 @@ export type TagType =
   | "cloudcomputing"
   | "code"
   | "ai"
+  | "agi"
+  | "asi"
   | "superfusion"
   | "fiveg" //5g
   | "shareeconomy"
@@ -125,7 +127,27 @@ export type TagType =
   | "startup"
   | "pevc"
   | "homeoffice"
+  | "phone"
+  | "laser"
+  | "plc"
+  | "warindustry"
+  | "equipment"
+  | "photoelectric"
+  | "electronic"
+  | "hardware"
+  | "radar"
+  | "electroniccontrol"
+  | "metalmachinery"
+  | "instruments"
+  | "motorcycle"
+  | "photovoltaic"
+  | "atmosphere"
+  | "windpower"
+  | "watertreatment"
+  | "energystorage"
+
   ;
+
 
 export type Tag = {
   label: string;

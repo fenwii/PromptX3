@@ -28,6 +28,22 @@ export const Tags: { [type in TagType]: Tag } = {
     }),
     color: "#ff6100", // Facebook blue
   },
+  agi: {
+    label: translate({ message: "AGI" }),
+    description: translate({
+      message: "AGI通用人工智能",
+      id: "showcase.tag.agi.description",
+    }),
+    color: "#e16212", // Facebook blue
+  },
+  asi: {
+    label: translate({ message: "ASI" }),
+    description: translate({
+      message: "ASI超人工智能",
+      id: "showcase.tag.asi.description",
+    }),
+    color: "#22ff00", // Facebook blue
+  },
   knowledgetools: {
     label: translate({ message: "知识工具" }),
     description: translate({
@@ -599,11 +615,12 @@ write: {
     label: translate({ message: "出行" }),
     description: translate({
       message:
-        "出行",
+        "出行/高铁/地铁/船/飞机",
       id: "showcase.tag.traffic.description",
     }),
     color: "#2c1ee9",
   },
+
   food: {
     label: translate({ message: "食品" }),
     description: translate({
@@ -956,7 +973,191 @@ aerospace: {
   }),
   color: "#11a878",
 },  
+phone: {
+  label: translate({ message: "手机" }),
+  description: translate({
+    message:
+      "手机",
+    id: "showcase.tag.phone.description",
+  }),
+  color: "#11a878",
+},  
+laser: {
+  label: translate({ message: "激光" }),
+  description: translate({
+    message:
+      "激光",
+    id: "showcase.tag.laser.description",
+  }),
+  color: "#ddede8",
+},  
+plc: {
+  label: translate({ message: "工业控制" }),
+  description: translate({
+    message:
+      "工业控制/伺服/减速器/控制器/机床",
+    id: "showcase.tag.plc.description",
+  }),
+  color: "#19eca9",
+},  
+warindustry: {
+  label: translate({ message: "军工" }),
+  description: translate({
+    message:
+      "军工/武器/军机/坦克/军舰/导弹/军贸/国防",
+    id: "showcase.tag.warindustry.description",
+  }),
+  color: "#ec9419",
+},  
+equipment: {
+  label: translate({ message: "装备机械" }),
+  description: translate({
+    message:
+      "装备机械/挖掘机/电梯/高空作业/液压",
+    id: "showcase.tag.equipment.description",
+  }),
+  color: "#19ecb0",
+},  
+photoelectric: {
+  label: translate({ message: "光电技术" }),
+  description: translate({
+    message:
+      "光电技术/光学/摄像头/光电组件",
+    id: "showcase.tag.photoelectric.description",
+  }),
+  color: "#b0ec19",
+},  
+
+electronic: {
+  label: translate({ message: "电子元件" }),
+  description: translate({
+    message:
+      "电子元件/MLCC/天线/面板/连接器/PCB/FPC/电容器/继电器/偏光片/滤波器/覆铜板",
+    id: "showcase.tag.electronic.description",
+  }),
+  color: "#010200",
+},  
+
+hardware: {
+  label: translate({ message: "智能硬件" }),
+  description: translate({
+    message:
+      "智能硬件/智能手表/智能音箱/TWS",
+    id: "showcase.tag.hardware.description",
+  }),
+  color: "#10dde4",
+},  
+
+radar: {
+  label: translate({ message: "雷达" }),
+  description: translate({
+    message:
+      "雷达",
+    id: "showcase.tag.radar.description",
+  }),
+  color: "#1030e4",
+},  
+electroniccontrol : {
+  label: translate({ message: "电机电控" }),
+  description: translate({
+    message:
+      "电机电控",
+    id: "showcase.tag.electroniccontrol.description",
+  }),
+  color: "#10e429",
+},  
+
+metalmachinery : {
+  label: translate({ message: "五金机械" }),
+  description: translate({
+    message:
+      "五金机械",
+    id: "showcase.tag.metalmachinery.description",
+  }),
+  color: "#e48f10",
+},  
+
+instruments: {
+  label: translate({ message: "仪器仪表" }),
+  description: translate({
+    message:
+      "仪器仪表",
+    id: "showcase.tag.instruments.description",
+  }),
+  color: "#e48f10",
+},  
+
+motorcycle: {
+  label: translate({ message: "摩托车" }),
+  description: translate({
+    message:
+      "摩托车",
+    id: "showcase.tag.motorcycle.description",
+  }),
+  color: "#e41037",
+}, 
+photovoltaic: {
+  label: translate({ message: "光伏" }),
+  description: translate({
+    message:
+      "光伏/组件/跟踪支架",
+    id: "showcase.tag.photovoltaic.description",
+  }),
+  color: "#4810e4",
+},
+
+atmosphere: {
+  label: translate({ message: "大气" }),
+  description: translate({
+    message:
+      "大气",
+    id: "showcase.tag.atmosphere.description",
+  }),
+  color: "#10e4a8",
+},
+
+windpower: {
+  label: translate({ message: "风电" }),
+  description: translate({
+    message:
+      "风电",
+    id: "showcase.tag.windpower.description",
+  }),
+  color: "#e44c10",
+},
+
+watertreatment: {
+  label: translate({ message: "水处理" }),
+  description: translate({
+    message:
+      "水处理",
+    id: "showcase.tag.watertreatment.description",
+  }),
+  color: "#10e457",
+},
+
+watertreatment: {
+  label: translate({ message: "水处理" }),
+  description: translate({
+    message:
+      "水处理",
+    id: "showcase.tag.watertreatment.description",
+  }),
+  color: "#10e457",
+},
+energystorage: {
+  label: translate({ message: "储能" }),
+  description: translate({
+    message:
+      "储能",
+    id: "showcase.tag.energystorage.description",
+  }),
+  color: "#e4a410",
+},
+
 };
+
+
 
 const Users: User[] = UsersData as User[];
 export const TagList = Object.keys(Tags) as TagType[];
