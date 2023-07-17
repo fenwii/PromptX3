@@ -1144,7 +1144,15 @@ energystorage: {
   }),
   color: "#e4a410",
 },
-
+midjourney: {
+  label: translate({ message: "Midjourney" }),
+  description: translate({
+    message:
+      "Midjourney提示词",
+    id: "showcase.tag.midjourney.description",
+  }),
+  color: "#10e41e",
+},
 };
 
 

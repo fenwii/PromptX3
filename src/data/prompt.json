@@ -4282,6 +4282,24 @@
     ],
     "id": 248,
     "weight": 0
+  },
+  {
+    "title": "Midjourney胖物品提示词",
+    "description": "3D render of 「Item」, fat and funny, gigantic, fernando botero, White background",
+    "desc_cn": "[物品]的3D渲染图，胖而有趣，机械，fernando botero，白色背景",
+    "remark": "MIT麻省理工自律24步创业法",
+    "title_en": "Midjourney Fat Item ",
+    "desc_en": "3D render of 「Item」, fat and funny, gigantic, fernando botero, White background",
+    "remark_en": "Midjourney Fat Item Prompt of Midjourney",
+    "preview": null,
+    "website": "",
+    "source": null,
+    "tags": [
+      "midjourney"
+    ],
+    "id": 249,
+    "weight": 0
   }
+  
   
 ]

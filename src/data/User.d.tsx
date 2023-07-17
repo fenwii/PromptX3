@@ -145,6 +145,7 @@ export type TagType =
   | "windpower"
   | "watertreatment"
   | "energystorage"
+  | "midjourney"
   ;
 
 
