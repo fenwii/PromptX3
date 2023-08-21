@@ -5,7 +5,7 @@
     <a href="./README-en.md">English</a> | 中文
 </p>
 <p align="center">
-    <em>掌握ChatGPT,Midjourney,Stable Diffusion提示词技术，让提问，想象力和思辨成为第一生产力</em>
+    <em>掌握ChatGPT,Claude,Midjourney,Stable Diffusion提示词技术，让提问，想象力和思辨成为第一生产力</em>
 </p>
 
 ## Why use Prompt X3?
