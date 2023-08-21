@@ -9,7 +9,7 @@ const enNavbar = require('./src/components/LocalizedNavbar/Navbar.en');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Tag filtering, keyword search, and one-click copy prompts",
-  // tagline: '掌握ChatGPT,Midjourney,Stable Diffusion提示词技术，让提问，想象力和思辨成为第一生产力',
+  // tagline: '掌握ChatGPT,Claude,Midjourney,Stable Diffusion提示词技术，让提问，想象力和思辨成为第一生产力',
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
