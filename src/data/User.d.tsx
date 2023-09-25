@@ -36,6 +36,9 @@ export type TagType =
   | "ai"
   | "agi"
   | "asi"
+  | "agent"
+  | "bot"
+  | "copilot"
   | "superfusion"
   | "fiveg" //5g
   | "shareeconomy"

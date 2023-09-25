@@ -1153,6 +1153,33 @@ midjourney: {
   }),
   color: "#10e41e",
 },
+agent: {
+  label: translate({ message: "Agents" }),
+  description: translate({
+    message:
+      "agents智能体",
+    id: "showcase.tag.agent.description",
+  }),
+  color: "#e4e410",
+},
+bot: {
+  label: translate({ message: "Bot" }),
+  description: translate({
+    message:
+      "Bot专业机器人",
+    id: "showcase.tag.bot.description",
+  }),
+  color: "#0ac416",
+},
+copilot: {
+  label: translate({ message: "Copilot" }),
+  description: translate({
+    message:
+      "Copilot Ai辅助",
+    id: "showcase.tag.copilot.description",
+  }),
+  color: "#e4cf10",
+},
 };
 
 

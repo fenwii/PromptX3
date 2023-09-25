@@ -42,7 +42,7 @@ const TITLE = translate({
     "Prompt X3 - 简单易用的 ChatGPT,Midjourney,Stable Difusion 快捷预设提示词模版指令表，让生产力倍增！标签筛选、关键词搜索和一键复制 Prompts",
 });
 const DESCRIPTION = translate({
-  message: "掌握ChatGPT,Claude,Midjourney,Stable Diffusion提示词技术，让提问，想象力和思辨成为第一生产力",
+  message: "掌握ChatGPT,Claude,Midjourney,Stable Diffusion结构化提示词技术，让提问，想象力和思辨成为第一生产力",
 });
 const SUBMIT_URL =
   "https://c9ki7hypo6.feishu.cn/docx/M6z7doyWzoHsboxZO7ycqSHwnig";

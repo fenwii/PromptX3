@@ -1,0 +1,54 @@
+interface Cards {
+      card_id: string
+      count: string
+    }
+
+let responseObject: Cards = JSON.parse(response);
+    console.info('===responseObject'+responseObject[0].id)
+    console.info('===responseObject'+responseObject[1].name)
+
+
+
+type CardsListRequst {
+    
+}
+
+type CardsListRespone{
+
+
+}
+
+
+type CopyRequst {
+    
+}
+
+type CopyRespone{
+
+
+}
+
+service allcounts {
+
+
+
+    @doc(
+        summary: 
+    )
+    @handler CardsHandler
+    get /your/url/path(CardsListRequst) returns(CardsListRequst)
+
+    
+}
+
+
+service copy{
+
+    @doc(
+        summary: 
+    )
+    @handler CopyHandler
+    post /your/url/path(CopyRequst) returns(CopyRequst)
+    
+
+}
