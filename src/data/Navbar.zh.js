@@ -25,7 +25,7 @@ const zhNavbar = {
           href: 'https://www.aigcgpt.app',
         },
         {
-          label: '掌握ChatGPT,Claude,Midjourney,Stable Diffusion结构化提示词技术，让提问，想象力和思辨成为第一生产力',
+          label: '掌握ChatGPT,Claude,Midjourney,Stable Diffusion结构化提问技术，让提问，想象力和思辨成为第一生产力',
           href: 'https://web.aigcgpt.app',
         },
         {
